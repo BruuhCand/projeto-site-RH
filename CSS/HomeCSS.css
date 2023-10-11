@@ -1,0 +1,100 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:ital,wght@1,500&display=swap');
+
+  /***
+  font-family: 'Nunito Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+
+***/
+body{
+    background: linear-gradient(to bottom,#9801fe, #9a00ff);
+    background-repeat: no;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+
+}
+
+#menu-h {
+    text-align: center;
+    background-position: center;
+    width:100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#menu-h tr th{
+    padding: 0;
+}
+
+
+#menu-h tr th a{
+    text-decoration: none;
+    padding: 0;
+    padding-left: -10%;
+    font-size: 16px;
+    color: rgb(255,255,255,0.7);
+}
+
+#menu-h tr th a:hover{
+    color: rgb(255,255,255);
+}
+
+.menu_clic{
+    width: 12%;
+    
+    
+}
+
+.b-entrar{
+    text-align:start;
+    align-items: center;
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255,255,255);
+}
+
+
+.b-entrar img{
+    background-position: center ;
+}
+
+.b-entrar:hover{
+    background-color: rgb(255,255,255,0.7);
+}
+
+#body-h{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.div-h{
+    width: 50%;
+    flex: 1;
+}
+
+.div1{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+
+}
+
+footer {
+   
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 5%;
+  }
+
+
+
+
+
